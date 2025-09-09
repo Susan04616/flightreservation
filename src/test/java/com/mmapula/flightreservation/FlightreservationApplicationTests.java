@@ -1,4 +1,4 @@
-package com.tekane.flightreservation;
+package com.mmapula.flightreservation;
 
 import com.tekane.flightreservation.beans.User;
 import com.tekane.flightreservation.repositories.UserRepository;

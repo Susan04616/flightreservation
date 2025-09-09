@@ -1,6 +1,6 @@
-package com.tekane.flightreservation.controllers;
+package com.mmapula.flightreservation.controllers;
 
-import com.tekane.flightreservation.beans.User;
+import com.mmapula.flightreservation.beans.User;
 import com.tekane.flightreservation.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

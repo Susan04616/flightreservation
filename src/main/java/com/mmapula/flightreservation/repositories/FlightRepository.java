@@ -1,7 +1,8 @@
-package com.tekane.flightreservation.repositories;
+package com.mmapula.flightreservation.repositories;
 
-import com.tekane.flightreservation.beans.Flight;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.mmapula.flightreservation.beans.Flight;
 
 import java.util.Date;
 

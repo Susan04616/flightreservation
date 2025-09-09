@@ -1,11 +1,12 @@
-package com.tekane.flightreservation.controllers;
+package com.mmapula.flightreservation.controllers;
 
-import com.tekane.flightreservation.repositories.FlightRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import com.mmapula.flightreservation.repositories.FlightRepository;
 
 import java.util.Date;
 

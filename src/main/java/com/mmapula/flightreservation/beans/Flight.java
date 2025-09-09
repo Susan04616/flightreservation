@@ -1,6 +1,7 @@
-package com.tekane.flightreservation.beans;
+package com.mmapula.flightreservation.beans;
 
 import javax.persistence.Entity;
+
 import java.sql.Timestamp;
 import java.util.Date;
 

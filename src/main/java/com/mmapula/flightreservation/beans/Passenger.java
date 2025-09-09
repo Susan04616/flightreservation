@@ -1,15 +1,15 @@
-package com.tekane.flightreservation.beans;
+package com.mmapula.flightreservation.beans;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
 
 @Entity
-public class User extends AbstractEntity {
-
-    @Column(name = "FIRST_NAME")
+public class Passenger extends AbstractEntity {
     private String firstName;
     private String lastName;
+    private String middleName;
     private String email;
-    private String password;
+    private String phone;
+
 
     public String getFirstName() {
         return firstName;
@@ -27,6 +27,14 @@ public class User extends AbstractEntity {
         this.lastName = lastName;
     }
 
+    public String getMiddleName() {
+        return middleName;
+    }
+
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
+    }
+
     public String getEmail() {
         return email;
     }
@@ -35,11 +43,11 @@ public class User extends AbstractEntity {
         this.email = email;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }

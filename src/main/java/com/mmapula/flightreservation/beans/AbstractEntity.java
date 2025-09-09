@@ -1,4 +1,4 @@
-package com.tekane.flightreservation.beans;
+package com.mmapula.flightreservation.beans;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
